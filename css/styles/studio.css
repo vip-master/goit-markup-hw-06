@@ -106,8 +106,9 @@
     }
     
     .modal .window button[type="reset"] {
-        background-color: transparent;
-        background-image: url("../../images/studio/close.svg");
+        background-color: var(--color-antiaccent);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
     }
     
     .modal .window fieldset {
@@ -193,6 +194,8 @@
         border-color: var(--color-accent);
     }
     
+    .modal .window button[type="reset"]:hover path,
+    .modal .window button[type="reset"]:focus path,
     .modal .window .input input:focus+svg {
         fill: var(--color-accent);
     }

@@ -72,12 +72,6 @@ body .social li {
 
 /* Header */
 
-
-/* 
-header {
-    padding: 24px 0 25px 0;
-} */
-
 header nav {
     column-gap: 93px;
 }
@@ -136,6 +130,7 @@ footer address {
 
 footer .centrion {
     display: flex;
+    justify-content: space-between;
     column-gap: 70px;
 }
 
