@@ -155,8 +155,8 @@
     }
     
     .modal .window .checkbox svg {
-        fill: transparent;
         background-color: var(--color-antiaccent);
+        --cborder: var(--color-headlight);
     }
     
     .modal .window button {
@@ -202,5 +202,10 @@
     }
     
     .modal .window .checkbox input:checked+svg {
-        fill: var(--color-accent);
+        --cborder: transparent;
+        --cback: var(--color-accent);
+    }
+    
+    .modal .window .checkbox input:focus+svg {
+        --cborder: var(--color-accent);
     }
