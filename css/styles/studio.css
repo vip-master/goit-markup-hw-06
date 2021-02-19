@@ -1,0 +1,206 @@
+    /* 
+    Font Styles:
+    Roboto 900;
+*/
+    
+    .hero {
+        background-color: var(--color-footback);
+        background-color: var(--color-herolay);
+        background-image: url("../../images/studio/heroback.jpg");
+        background-blend-mode: darken;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .hero h1 {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--color-antiaccent);
+    }
+    
+    .hero button {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        color: var(--color-antiaccent);
+        background-color: var(--color-accent);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border-style: none;
+    }
+    
+    .work h3,
+    .photos h3 {
+        font-weight: bold;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--color-headlight);
+        margin-top: 30px;
+    }
+    
+    .photos h3 {
+        color: var(--color-antiaccent);
+        background-color: var(--color-photoback);
+    }
+    
+    .work .back {
+        background: var(--color-team);
+        border-radius: 4px;
+    }
+    
+    .super {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.167;
+        text-align: center;
+        color: var(--color-headlight);
+    }
+    
+    .team {
+        background-color: var(--color-team);
+    }
+    
+    .team h3 {
+        font-weight: 500;
+        color: var(--color-headlight);
+    }
+    
+    .team h3,
+    .team p {
+        font-size: 16px;
+        line-height: 1.1875;
+        text-align: center;
+    }
+    
+    .team li {
+        background: var(--color-antiaccent);
+        width: 270px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+    
+    .team .social svg {
+        fill: var(--color-logos);
+    }
+    
+    .clients .back {
+        border: 1px solid var(--color-logos);
+        border-radius: 4px;
+        color: var(--color-logos);
+    }
+    
+    .modal {
+        background-color: var(--color-modalback);
+    }
+    
+    .modal .window {
+        background-color: var(--color-antiaccent);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        position: relative;
+    }
+    
+    .modal .window button[type="reset"] {
+        background-color: transparent;
+        background-image: url("../../images/studio/close.svg");
+    }
+    
+    .modal .window fieldset {
+        border: none;
+    }
+    
+    .modal .window legend {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: var(--color-headlight);
+    }
+    
+    .modal .window label {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+    }
+    
+    .modal .window .input input,
+    textarea {
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        padding-left: 32px;
+        outline: none;
+    }
+    
+    .modal .window .input svg {
+        fill: var(--color-headlight);
+    }
+    
+    .modal .window textarea {
+        padding: 12px 16px 12px 16px;
+    }
+    
+    .modal .window label.license {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    
+    .modal .window label.license a {
+        color: var(--color-accent);
+        text-decoration: underline;
+    }
+    
+    .modal .window .checkbox svg {
+        fill: transparent;
+        background-color: var(--color-antiaccent);
+    }
+    
+    .modal .window button {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        background-color: var(--color-accent);
+        color: var(--color-antiaccent);
+        border: none;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+    }
+    /* Reactions */
+    
+    .team .social a:hover svg,
+    .team .social a:focus svg {
+        fill: var(--color-antiaccent);
+    }
+    
+    .clients a:hover svg,
+    .clients a:focus svg {
+        fill: var(--color-accent);
+    }
+    
+    .clients a:hover .back,
+    .clients a:focus .back {
+        border-color: var(--color-accent);
+        outline: none;
+    }
+    
+    .modal .window .input input:focus,
+    textarea:focus {
+        border-color: var(--color-accent);
+    }
+    
+    .modal .window .input input:focus+svg {
+        fill: var(--color-accent);
+    }
+    
+    .modal .window button[type="submit"]:active {
+        background-color: var(--color-button);
+    }
+    
+    .modal .window .checkbox input:checked+svg {
+        fill: var(--color-accent);
+    }

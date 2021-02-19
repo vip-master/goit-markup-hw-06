@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+ul {
+    max-width: 1600px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+header>div,
+nav,
+ul,
+address,
+.textcard,
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.social {
+    column-gap: 10px;
+}
+
+.social a {
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+body .social li {
+    max-width: max-content;
+    border: none;
+    box-shadow: none;
+}
+
+.centrion {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.textcard {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.disable {
+    position: absolute;
+    top: -1984px;
+    left: -1984px;
+}
+
+.is_hidden {
+    visibility: collapse;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* Header */
+
+
+/* 
+header {
+    padding: 24px 0 25px 0;
+} */
+
+header nav {
+    column-gap: 93px;
+}
+
+header ul,
+header address {
+    column-gap: 50px;
+}
+
+header .centrion {
+    padding: 0;
+}
+
+header nav li a {
+    display: inline-block;
+    position: relative;
+    padding: 32px 0 32px 0;
+}
+
+header nav li a::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+header address svg {
+    margin-right: 10px;
+    max-height: 12px;
+}
+
+header a[href*="mailto"]>svg {
+    width: 16px;
+}
+
+header a[href*="tel"]>svg {
+    width: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 60px 0 60px 0;
+}
+
+footer address {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 9px;
+}
+
+footer .centrion {
+    display: flex;
+    column-gap: 70px;
+}
+
+footer div.connect>p {
+    margin-bottom: 20px;
+}
+
+footer div.joinus {
+    margin-left: 23px;
+}
+
+footer .send-items {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    column-gap: 12px;
+}
+
+footer .send-items input {
+    height: 100%;
+    width: 358px;
+}
+
+footer .joinus .send-items button {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    padding: 0 32px 0 0;
+}
+
+footer .joinus .send-items button::after {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    right: 28px;
+}

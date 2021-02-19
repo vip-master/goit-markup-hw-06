@@ -1,0 +1,44 @@
+section {
+    padding: 94px 0 94px 0;
+}
+
+ul.buttons {
+    justify-content: center;
+    column-gap: 8px;
+    margin-bottom: 56px;
+}
+
+ul.cards {
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    align-items: initial;
+    justify-content: initial;
+}
+
+.pic {
+    width: 370px;
+    height: 294px;
+    overflow: hidden;
+    object-fit: contain;
+    object-position: center;
+}
+
+.pic>p {
+    width: 100%;
+    height: 100%;
+}
+
+.textcard {
+    align-items: flex-start;
+    padding: 20px 24px 20px 24px;
+}
+
+.textcard>p {
+    margin-top: 4px;
+}
+
+.cards li {
+    width: 370px;
+    height: 404px;
+}
